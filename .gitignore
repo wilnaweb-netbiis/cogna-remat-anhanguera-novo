@@ -1,1 +1,10 @@
-teste.text
+.hlx/*
+coverage/*
+logs/*
+node_modules/*
+
+helix-importer-ui
+.DS_Store
+*.bak
+.idea
+*.Identifier

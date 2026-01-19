@@ -1,0 +1,78 @@
+{
+  "definitions": [
+    {
+      "title": "Section",
+      "id": "section",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/section/v1/section",
+            "template": {
+              "model": "section"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "section",
+      "fields": [
+        {
+          "component": "text",
+          "name": "name",
+          "label": "Section Name",
+          "description": "The label shown for this section in the Content Tree"
+        },
+        {
+          "component": "multiselect",
+          "name": "style",
+          "label": "Style",
+          "options": [
+            {
+              "name": "Custom: The first image is the background",
+              "value": "custom-section-first-image-background"
+            },
+            {
+              "name": "Variety 1",
+              "value": "variety-1"
+            },
+            {
+              "name": "Variety 2",
+              "value": "variety-2"
+            },
+            {
+              "name": "Variety 3",
+              "value": "variety-3"
+            },
+            {
+              "name": "Pattern Orange",
+              "value": "pattern-orange"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "section",
+      "components": [
+        "text",
+        "image",
+        "button",
+        "title",
+        "hero",
+        "cards",
+        "columns",
+        "fragment",
+        "tabs",
+        "carousels",
+        "faqs",
+        "banner",
+        "video"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "repos":[
+    {
+      "repository": "cogna-rematricula-anhanguera",
+      "favicon": "icon-anhaguera.png",
+      "adobe-challenge": "83fef962-8143-4cb9-a1cd-e2bea77ceb0e",
+      "fstab": "https://author-p108377-e1558767.adobeaemcloud.com/bin/franklin.delivery/netbiis/cogna-rematricula-anhanguera/main",
+      "paths": {
+        "mappings": [
+          "/content/lp-rematricula-anhanguera/:/",
+          "/content/lp-rematricula-anhanguera/configuration:/.helix/config.json",
+          "/content/lp-rematricula-anhanguera/metadata:/metadata.json"
+        ],
+        "includes": [
+          "/content/lp-rematricula-anhanguera/"
+        ]
+      },
+      "sidekick":{
+        "project": "Rematrícula Antecipada | Anhanguera",
+        "editUrlLabel": "AEM Editor",
+        "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open",
+        "host" : "rematricula.anhanguera.com"
+      }
+    },
+    {
+      "repository": "cogna-rematricula-unopar",
+      "favicon": "icon-unopar.png",
+      "adobe-challenge": "6a819ab1-b652-47ea-9682-5b41a6c8002c",
+      "fstab": "https://author-p108377-e1558767.adobeaemcloud.com/bin/franklin.delivery/netbiis/cogna-rematricula-unopar/main",
+      "paths": {
+        "mappings": [
+          "/content/lp-rematricula-unopar/:/",
+          "/content/lp-rematricula-unopar/configuration:/.helix/config.json",
+          "/content/lp-rematricula-unopar/metadata:/metadata.json"
+        ],
+        "includes": [
+          "/content/lp-rematricula-unopar/"
+        ]
+      },
+      "sidekick":{
+        "project": "Rematrícula Antecipada | Unopar",
+        "editUrlLabel": "AEM Editor",
+        "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open",
+        "host" : "rematricula.unopar.com.br"
+      }
+    },
+    {
+      "repository": "cogna-rematricula-unic",
+      "favicon": "icon-unic.png",
+      "adobe-challenge": "f5be1c76-9329-4f21-be50-807c81e5c057",
+      "fstab": "https://author-p108377-e1558767.adobeaemcloud.com/bin/franklin.delivery/netbiis/cogna-rematricula-unic/main",
+      "paths": {
+        "mappings": [
+          "/content/lp-rematricula-unic/:/",
+          "/content/lp-rematricula-unic/configuration:/.helix/config.json",
+          "/content/lp-rematricula-unic/metadata:/metadata.json"
+        ],
+        "includes": [
+          "/content/lp-rematricula-unic/"
+        ]
+      },
+      "sidekick":{
+        "project": "Rematrícula Antecipada | Unic",
+        "editUrlLabel": "AEM Editor",
+        "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open",
+        "host" : "rematricula.unic.com.br"
+      }
+    },
+    {
+      "repository": "cogna-rematricula-uniderp",
+      "favicon": "icon-uniderp.png",
+      "adobe-challenge": "cf7df428-9d12-4625-96dc-5096e816e55f",
+      "fstab": "https://author-p108377-e1558767.adobeaemcloud.com/bin/franklin.delivery/netbiis/cogna-rematricula-uniderp/main",
+      "paths": {
+        "mappings": [
+          "/content/lp-rematricula-uniderp/:/",
+          "/content/lp-rematricula-uniderp/configuration:/.helix/config.json",
+          "/content/lp-rematricula-uniderp/metadata:/metadata.json"
+        ],
+        "includes": [
+          "/content/lp-rematricula-uniderp/"
+        ]
+      },
+      "sidekick":{
+        "project": "Rematrícula Antecipada | Uniderp",
+        "editUrlLabel": "AEM Editor",
+        "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open",
+        "host" : "rematricula.uniderp.com.br"
+      }
+    },
+    {
+      "repository": "cogna-rematricula-unime",
+      "favicon": "icon-unime.png",
+      "adobe-challenge": "d2b8c0d8-4cbb-4955-9dca-fe47ef63b25f",
+      "fstab": "https://author-p108377-e1558767.adobeaemcloud.com/bin/franklin.delivery/netbiis/cogna-rematricula-unime/main",
+      "paths": {
+        "mappings": [
+          "/content/lp-rematricula-unime/:/",
+          "/content/lp-rematricula-unime/configuration:/.helix/config.json",
+          "/content/lp-rematricula-unime/metadata:/metadata.json"
+        ],
+        "includes": [
+          "/content/lp-rematricula-unime/"
+        ]
+      },
+      "sidekick":{
+        "project": "Rematrícula Antecipada | Unime",
+        "editUrlLabel": "AEM Editor",
+        "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open",
+        "host" : "rematricula.unime.edu.br"
+      }
+    },
+    {
+      "repository": "cogna-rematricula-pitagoras",
+      "favicon": "icon-pitagoras.png",
+      "adobe-challenge": "7edec418-e6cf-4ad9-af82-ee9e8cc5da39",
+      "fstab": "https://author-p108377-e1558767.adobeaemcloud.com/bin/franklin.delivery/netbiis/cogna-rematricula-pitagoras/main",
+      "paths": {
+        "mappings": [
+          "/content/lp-rematricula-pitagoras/:/",
+          "/content/lp-rematricula-pitagoras/configuration:/.helix/config.json",
+          "/content/lp-rematricula-pitagoras/metadata:/metadata.json"
+        ],
+        "includes": [
+          "/content/lp-rematricula-pitagoras/"
+        ]
+      },
+      "sidekick":{
+        "project": "Rematrícula Antecipada | Pitagoras",
+        "editUrlLabel": "AEM Editor",
+        "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open",
+        "host" : "rematricula.pitagoras.com.br"
+      }
+    }
+  ]
+}

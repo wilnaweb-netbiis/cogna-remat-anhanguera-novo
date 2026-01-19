@@ -1,0 +1,102 @@
+.columns>div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.columns img {
+    width: 100%;
+}
+
+.columns>div>div {
+    order: 1;
+}
+
+.columns>div>.columns-img-col {
+    order: 0;
+}
+
+.columns>div>.columns-img-col img {
+    display: block;
+}
+
+.columns-wrapper {
+    color: var(--text-color);
+    font-weight: var(--weight-primary);
+    font-size: 18px;
+    line-height: 150%;
+    margin: 0 20px;
+
+    .columns-col {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+
+        >h2,
+        >h3 {
+            color: var(--dark-color);
+            font-weight: var(--weight-secondary);
+            font-size: 32px;
+        }
+    }
+
+    p:not(.button-container) {
+        font-size: 18px;
+
+        sup {
+            color: var(--dark-color);
+            font-weight: var(--weight-default);
+            font-size: 16px;
+            line-height: 100%;
+        }
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px 30px;
+
+        li {
+            padding-left: 30px;
+            position: relative;
+
+            &::before {
+                content: url('data:image/svg+xml,  <svg width="23" height="27" viewBox="0 0 23 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.6667 12.5714V13.3381C19.6656 15.1351 19.0838 16.8837 18.0078 18.323C16.9318 19.7622 15.4194 20.8152 13.6961 21.3247C11.9729 21.8342 10.1311 21.773 8.44539 21.1503C6.75973 20.5275 5.32055 19.3765 4.34247 17.869C3.36439 16.3615 2.89983 14.5782 3.01806 12.785C3.1363 10.9919 3.83101 9.28504 4.99857 7.919C6.16613 6.55295 7.74399 5.60092 9.49682 5.20489C11.2497 4.80886 13.0836 4.99005 14.725 5.72144M19.6667 6.66667L11.3333 15.0083L8.83333 12.5083" stroke="%23ED323C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+                position: absolute;
+                left: 0;
+            }
+        }
+    }
+
+}
+
+@media (width >=900px) {
+    .columns>div {
+        align-items: flex-start;
+        flex-direction: unset;
+    }
+
+    .columns>div>div {
+        flex: 1;
+        order: unset;
+    }
+
+    .columns-wrapper {
+        margin: 0 60px;
+
+        &.n-block-columns-1 {
+            .button {
+                &.primary {
+                    border-radius: 26px;
+                    padding: 14px 50px;
+                }
+            }
+        }
+
+        &.n-block-columns-2 {
+            ul {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+}

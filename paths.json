@@ -1,0 +1,10 @@
+{
+  "mappings": [
+    "/content/lp-rematricula-anhanguera/:/",
+    "/content/lp-rematricula-anhanguera/configuration:/.helix/config.json",
+    "/content/lp-rematricula-anhanguera/metadata:/metadata.json"
+  ],
+  "includes": [
+    "/content/lp-rematricula-anhanguera/"
+  ]
+}

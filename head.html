@@ -1,0 +1,28 @@
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" type="text/javascript" defer></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<script src="/scripts/aem.js" type="module"></script>
+<script src="/scripts/scripts.js" type="module"></script>
+<link rel="stylesheet" href="/styles/styles.css"/>
+<link rel="icon" type="image/png" href="/favicon/favicon.png">
+
+<script>
+  const hostname = window.location.hostname;
+  if ( hostname.includes('netbiis.aem')) {
+    //DEV
+    document.write('<script src="https://assets.adobedtm.com/9fe9cc3d585d/44e08659f1cc/launch-1bd501cb38e0-development.min.js" async><\/script>');
+  } else if (hostname.includes('stage--')) {
+    // STAGE
+    document.write('<script src="https://assets.adobedtm.com/9fe9cc3d585d/44e08659f1cc/launch-da0eba58d523-staging.min.js" async><\/script>');
+  } else if (hostname.includes('main--') || hostname.includes('rematricula.')) {
+    // PROD
+    document.write('<script src="https://assets.adobedtm.com/9fe9cc3d585d/44e08659f1cc/launch-a3f89e1cdc79.min.js" async><\/script>');
+  } else {
+    // PROD
+    document.write('<script src="https://assets.adobedtm.com/9fe9cc3d585d/44e08659f1cc/launch-a3f89e1cdc79.min.js" async><\/script>');
+  }
+</script>

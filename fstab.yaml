@@ -1,0 +1,5 @@
+mountpoints:
+  /:
+    url: "https://author-p108377-e1558767.adobeaemcloud.com/bin/franklin.delivery/netbiis/cogna-rematricula-anhanguera/main"
+    type: "markup"
+    suffix: ".html"

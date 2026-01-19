@@ -1,0 +1,5 @@
+version: 1
+static:
+  - path: "/**"
+    headers:
+      cache-control: no-cache, no-store, must-revalidate
