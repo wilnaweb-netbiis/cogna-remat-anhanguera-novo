@@ -11,28 +11,6 @@ export default async function decorate(block) {
   const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : '/footer';
   const fragment = await loadFragment(footerPath);
 
-  function MyModal() {
-    return `
-    <div id="myModal" class="modal"><div class="modal-content"><span class="close">&times;</span>
-    <video width="320" height="240" controls>
-    <source src="https://publish-p136102-e1403896.adobeaemcloud.com/content/dam/cogna-lps-adobe-eds/brands/video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-    </video>
-    </div></div>
-    <div id="myModal2" class="modal"><div class="modal-content"><span class="close">&times;</span>
-    <video width="320" height="240" controls>
-    <source src="https://publish-p136102-e1403896.adobeaemcloud.com/content/dam/cogna-lps-adobe-eds/brands/video2-estudo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-    </video>
-    </div></div>
-    <div id="myModal3" class="modal"><div class="modal-content"><span class="close">&times;</span>
-    <video width="320" height="240" controls>
-    <source src="https://publish-p136102-e1403896.adobeaemcloud.com/content/dam/cogna-lps-adobe-eds/brands/video3-avaliacao.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-    </video>
-    </div></div>`;
-  }
-
   // decorate footer DOM
   block.textContent = '';
   const footer = document.createElement('div');
@@ -64,7 +42,6 @@ export default async function decorate(block) {
 
   const footerX = document.createElement('div');
   footerX.classList.add('footer-x');
-  //footerX.innerHTML = MyModal();
   block.append(footerX);
 }
 
