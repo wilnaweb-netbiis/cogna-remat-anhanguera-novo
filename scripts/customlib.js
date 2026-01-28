@@ -67,6 +67,7 @@ function decorateVideo(block) {
   video.setAttribute('width', '320');
   video.setAttribute('height', '240');
   video.setAttribute('controls', 'controls');
+  video.setAttribute('preload', 'none');
 
   const url = block.children[2].querySelector('a').getAttribute('href');
   const source = document.createElement('source');
@@ -95,6 +96,7 @@ function decorateVideo(block) {
     toggleElement(videoPlayer);
 
     video.setAttribute('autoplay', 'autoplay');
+    video.play();
   });
 
   block.children[0].remove();

@@ -64,7 +64,7 @@ export default async function decorate(block) {
 
   const footerX = document.createElement('div');
   footerX.classList.add('footer-x');
-  footerX.innerHTML = MyModal();
+  //footerX.innerHTML = MyModal();
   block.append(footerX);
 }
 
